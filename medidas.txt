@@ -1,0 +1,18 @@
+mobile
+ medio (parrafos): 20px;
+ grande (parrafos mas): 25px;
+mas grande (parrafos aun mas) o titulos: 30px;
+small-footer: 14px;
+small: 12px;
+
+desktop 765:
+
+ medio (parrafos): 25px;
+ grande 30px;
+mas grande: 35px;
+
+desktop 1200: 
+
+mas grandes(titles): 
+4vw;
+
