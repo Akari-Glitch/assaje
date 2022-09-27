@@ -25,6 +25,7 @@ export const Section4Styles = styled.section`
   .div-2 img {
     user-select: none;
     width: 40vw;
+    border-radius: 8px;
     margin-right: 5%;
     scroll-snap-align: center;
   }
