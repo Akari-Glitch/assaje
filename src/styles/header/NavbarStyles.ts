@@ -24,7 +24,6 @@ export const NavbarStyles = styled.nav<Props>`
   }
 
   ul {
-    position: fixed;
     display: flex;
     height: 85%;
     flex-direction: column;

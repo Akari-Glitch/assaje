@@ -22,10 +22,16 @@ export const HeaderStyles = styled.header`
     display: flex;
     z-index: 100;
     margin-top: 15px;
+
     align-items: flex-end;
   }
   .menu-icon {
     font-size: 40px;
+  }
+
+  .menu-hidden {
+    position: fixed;
+    right: 5%;
   }
   .logo {
     display: flex;

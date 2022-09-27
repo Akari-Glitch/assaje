@@ -56,8 +56,8 @@ function Navbar() {
                         </Link>
                     </div>
 
-                    <div className="menu-icon-container" onClick={handleMenu}>
-                        {showMenu ? <CloseIcon className="menu-icon menu-hidden"></CloseIcon>
+                    <div className={showMenu ? "menu-icon-container menu-hidden" : "menu-icon-container"} onClick={handleMenu}>
+                        {showMenu ? <CloseIcon className="menu-icon"></CloseIcon>
                             : <MenuIcon className="menu-icon" ></MenuIcon>
 
                         }
