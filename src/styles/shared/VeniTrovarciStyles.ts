@@ -16,7 +16,7 @@ export const VeniTrovarciStyles = styled.div`
   h2 {
     font-size: 5.7vw;
     color: white;
-    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
 
@@ -28,6 +28,7 @@ export const VeniTrovarciStyles = styled.div`
 
     h2 {
       font-size: 4.4vw;
+      -webkit-text-stroke-width: 0.1px;
     }
 
     margin-bottom: 5%;

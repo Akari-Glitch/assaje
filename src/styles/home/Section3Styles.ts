@@ -6,6 +6,7 @@ export const Section3Styles = styled.section`
   margin-bottom: 15%;
   .title {
     color: #bd3039;
+    margin-bottom: 20px;
   }
   .img-container img {
     margin-top: 10vh;

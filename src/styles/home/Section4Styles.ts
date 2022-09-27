@@ -18,8 +18,6 @@ export const Section4Styles = styled.section`
     scroll-behavior: smooth;
   }
 
-
-
   .div-2::-webkit-scrollbar {
     display: none;
   }
@@ -40,7 +38,7 @@ export const Section4Styles = styled.section`
     color: white;
     font-size: 6.8vw;
 
-    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-align: center;
   }
@@ -64,6 +62,7 @@ export const Section4Styles = styled.section`
 
     .div-1 h1 {
       font-size: 5.5vw;
+      -webkit-text-stroke-width: 0.1px;
     }
 
     @media (min-width: 1020px) {
@@ -85,8 +84,6 @@ export const Section4Styles = styled.section`
         width: 25vw;
         margin-right: 5%;
       }
-
-    
     }
   }
 `;
