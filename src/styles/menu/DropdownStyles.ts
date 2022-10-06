@@ -44,6 +44,9 @@ export const DropdownStyles = styled.div`
     margin-top: 25px;
   }
 
+  .current {
+    font-weight: bold;
+  }
   @media (min-width: 765px) {
     width: 210px;
     margin-top: 30px;
@@ -62,9 +65,6 @@ export const DropdownStyles = styled.div`
       content: "";
     }
 
-    .current {
-      font-weight: bold;
-    }
     @media (min-width: 820px) {
       width: 220px;
       .list-food li {
