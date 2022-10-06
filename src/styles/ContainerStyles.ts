@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerStyles = styled.main`
+  overflow-x: hidden;
   .ultra-small {
     font-size: 12px;
   }
@@ -10,44 +11,46 @@ export const ContainerStyles = styled.main`
   }
 
   .middle {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .big {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .extra-big {
-    font-size: 30px;
+    font-size: 29px;
   }
 
   @media (min-width: 765px) {
     .middle {
-      font-size: 25px;
+      font-size: 24px;
     }
 
     .big {
-      font-size: 30px;
+      font-size: 29px;
     }
 
     .extra-big {
-      font-size: 35px;
+      font-size: 34px;
     }
 
     @media (min-width: 1020px) {
       .extra-big {
-        font-size: 4vw;
+        font-size: 3vw;
       }
       @media (min-width: 1650px) {
         .middle {
-          font-size: 2vw;
+          font-size: 1.6vw;
         }
         .ultra-small {
           font-size: 0.8vw;
         }
-
+        .small {
+          font-size: 1vw;
+        }
         .big {
-          font-size: 2.3vw;
+          font-size: 2vw;
         }
       }
     }

@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import { NavbarStyles } from '../styles/header/NavbarStyles'
 import { HeaderStyles } from '../styles/header/HeaderStyles';
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 function Navbar() {
     const [showMenu, setShowMenu] = useState<Boolean>(false)
     const handleMenu = () => setShowMenu(!showMenu)
+    let location = useLocation();
+
+    const closeNav = () => setShowMenu(false)
 
     return (
         <>
@@ -68,42 +71,42 @@ function Navbar() {
             <NavbarStyles show={showMenu ? "translate(0)" : "translate(-100%)"}>
                 <div className='nav-content'>
                     <ul>
-                        <li>
-                            <NavLink to={`/`} className={({ isActive }) =>
-                                isActive ? "active-link" : undefined
+                        <li onClick={closeNav}>
+                            <NavLink to={`/`} className={() =>
+                                location.pathname === "/" ? "active-link" : undefined
                             }>HOME</NavLink>
                         </li>
-                        <li>
+                        <li onClick={closeNav}>
                             <NavLink to={`menu`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
                             }>MENU</NavLink>
                         </li>
-                        <li>
+                        <li onClick={closeNav}>
                             <NavLink to={`location`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
                             }>LOCATION</NavLink>
                         </li>
-                        <li>
+                        <li onClick={closeNav}>
                             <NavLink to={`about`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
                             }>ABOUT</NavLink>
                         </li>
-                        <li>
+                        <li onClick={closeNav}>
                             <NavLink to={`franchising`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
                             }>FRANCHISING</NavLink>
                         </li>
-                        <li>
+                        <li onClick={closeNav}>
                             <NavLink to={`carriera`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
                             }>CARRIERA</NavLink>
                         </li>
-                        <li>
+                        <li onClick={closeNav}>
                             <NavLink to={`contatti`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
                             }>CONTATTI</NavLink>
                         </li>
-                        <li className="ordina-li">
+                        <li className="ordina-li" onClick={closeNav}>
                             <NavLink to={`ordina`}>
                                 <div className="ordina-btn">
                                     ORDINA ORA

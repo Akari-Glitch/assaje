@@ -8,6 +8,8 @@ import Home from './home';
 import Navbar from './components/Navbar';
 import { ContainerStyles } from './styles/ContainerStyles';
 import Footer from './components/Footer';
+import Menu from './menu';
+
 const App: React.FC = () => {
   return (
 
@@ -16,8 +18,8 @@ const App: React.FC = () => {
       <Navbar></Navbar>
       <ContainerStyles>
         <Routes>
-          <Route path="/" element={<Home />}>
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
         <Footer></Footer>
       </ContainerStyles>
