@@ -37,7 +37,7 @@ export const ContainerStyles = styled.main`
 
     @media (min-width: 1020px) {
       .extra-big {
-        font-size: 3vw;
+        font-size: 2.4vw;
       }
       @media (min-width: 1650px) {
         .middle {
