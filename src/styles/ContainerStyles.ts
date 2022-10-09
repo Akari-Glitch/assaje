@@ -7,7 +7,7 @@ export const ContainerStyles = styled.main`
   }
 
   .small {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .middle {

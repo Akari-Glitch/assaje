@@ -23,7 +23,7 @@ export const Section1Styles = styled.section`
 
   .p-1,
   .p-2 {
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .p-3 {
     margin-top: 40px;
@@ -50,6 +50,16 @@ export const Section1Styles = styled.section`
       position: relative;
       left: -10%;
       width: 55%;
+    }
+
+    @media (min-width: 1020px) {
+      .p-1,
+      .p-2 {
+        margin-top: 5%;
+      }
+      .p-3 {
+        margin-top: 10%;
+      }
     }
   }
 `;
