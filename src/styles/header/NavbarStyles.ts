@@ -42,7 +42,7 @@ export const NavbarStyles = styled.nav<Props>`
     width: 100%;
     text-align: center;
     height: 100%;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     font-weight: bolder;
     text-decoration: none;
