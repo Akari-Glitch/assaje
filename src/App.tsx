@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import Contatti from './contatti';
 const App: React.FC = () => {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
 
       <Navbar></Navbar>
       <ContainerStyles>
@@ -22,11 +22,11 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/location" element={<Location />} />
-          <Route path="/contatti" element={<Contatti/>}></Route>
+          <Route path="/contatti" element={<Contatti />}></Route>
         </Routes>
         <Footer></Footer>
       </ContainerStyles>
-    </BrowserRouter>
+    </HashRouter>
 
   )
 }

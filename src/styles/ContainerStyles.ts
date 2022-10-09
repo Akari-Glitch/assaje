@@ -47,7 +47,7 @@ export const ContainerStyles = styled.main`
           font-size: 0.8vw;
         }
         .small {
-          font-size: 1vw;
+          font-size: 1.1vw;
         }
         .big {
           font-size: 2vw;

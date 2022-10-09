@@ -83,8 +83,14 @@ export const Section1Styles = styled.section`
       }
 
       @media (min-width: 1020px) {
+        justify-content: space-around;
+
         .div-1 .img {
           height: 90vh;
+        }
+
+        .div-1 {
+          max-width: 50vw;
         }
       }
     }
