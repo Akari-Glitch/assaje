@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+
 import Home from './home';
 import Navbar from './components/Navbar';
 import { ContainerStyles } from './styles/ContainerStyles';
@@ -11,6 +12,7 @@ import Footer from './components/Footer';
 import Menu from './menu';
 import Location from './location';
 import Contatti from './contatti';
+import About from "./about"
 const App: React.FC = () => {
   return (
 
@@ -23,6 +25,7 @@ const App: React.FC = () => {
           <Route path="/menu" element={<Menu />} />
           <Route path="/location" element={<Location />} />
           <Route path="/contatti" element={<Contatti />}></Route>
+          <Route path="/about" element={<About />}></Route>
         </Routes>
         <Footer></Footer>
       </ContainerStyles>

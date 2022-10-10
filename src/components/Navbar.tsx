@@ -8,8 +8,11 @@ function Navbar() {
     const [showMenu, setShowMenu] = useState<Boolean>(false)
     const handleMenu = () => setShowMenu(!showMenu)
     let location = useLocation();
-
-    const closeNav = () => setShowMenu(false)
+    let scroll = document.scrollingElement as HTMLElement
+    const closeNav = () => {
+        scroll.scrollTop = 0;
+        setShowMenu(false)
+    }
 
     return (
         <>
