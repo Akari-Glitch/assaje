@@ -1,7 +1,14 @@
 import React from 'react'
 import { FooterStyles } from '../styles/footer/FooterStyles'
+import { NavLink } from "react-router-dom";
 
 function Footer() {
+    let scroll = document.scrollingElement as HTMLElement
+
+    const handleNav = () => {
+        scroll.scrollTop = 0
+    };
+
     return (
         <FooterStyles>
             <div className="footer-container">
@@ -13,9 +20,9 @@ function Footer() {
                 <div className="div-2">
                     <p>NOTE LEGALI</p>
                     <p className="politics small-font">
-                        <a href="">Privacy Policy</a>
-                        <a href="">Cookie Policy</a>
-                        <a href="">Copyright</a>
+                        <NavLink onClick={handleNav} to={`/privacy-policy`}>Privacy Policy</NavLink>
+                        <NavLink onClick={handleNav} to={`/cookie-policy`}>Cookie Policy</NavLink>
+                        <NavLink onClick={handleNav} to={`/copyright`}>Copyright</NavLink>
                     </p>
                 </div>
                 <div className="div-3">

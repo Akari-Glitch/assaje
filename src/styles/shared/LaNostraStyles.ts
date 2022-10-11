@@ -1,15 +1,7 @@
 import styled from "styled-components";
 
-export const Section5Styles = styled.div`
-  .title-1 {
-    text-align: Center;
-    font-size: 5vw;
-    margin-bottom: 10%;
-  }
-
-  .title-1 a {
-    color: black;
-  }
+export const LaNostraStyles = styled.div`
+  margin-top: 10%;
 
   .div-2 {
     display: flex;

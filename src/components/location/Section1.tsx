@@ -9,7 +9,7 @@ function Section1() {
 
       <div className="div-2">
         <div>
-          <h1 className="title extra-big">LE NOSTRE LOCATION</h1>
+          <h1 className="title extra-middle">LE NOSTRE LOCATION</h1>
           <p className="p-1 middle">Un team di esperti architetti ha curato e cura gli arredamenti interni ed esterni in modo che
             sia garantito un alto livello di replicabilità e che, allo stesso tempo, sia richiamato uno
             spaccato della città partenopea nei decori, negli arredi, nelle “riggiole” (piastrelle) arrivate

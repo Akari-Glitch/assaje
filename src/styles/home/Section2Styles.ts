@@ -49,7 +49,7 @@ export const Section2Styles = styled.section`
     margin-left: auto;
     justify-content: flex-end;
     margin-bottom: 10%;
-
+    margin-top: 20%;
     .div-1 {
       position: absolute;
       left: -10%;
@@ -75,6 +75,7 @@ export const Section2Styles = styled.section`
       }
 
       @media (min-width: 1600px) {
+        margin-top: 25%;
         margin-bottom: 25%;
       }
     }

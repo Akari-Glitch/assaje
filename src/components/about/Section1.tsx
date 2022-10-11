@@ -2,12 +2,12 @@ import React from 'react'
 import { Section1Styles } from '../../styles/about/Section1Styles'
 function Section1() {
     return (
-        <Section1Styles image={`url('/images/about/img1.jpg`} >
-            <div className="div-img rightmost">
-                <div className="img"  />
-            </div>
+        <Section1Styles>
+
+            <img src="/images/about/img1.jpg" className="img img-1 rightmost" />
+
             <div className="div-info">
-                <h1 className="extra-big">CHI SIAMO</h1>
+                <h1 className="extra-big title">CHI SIAMO</h1>
                 <p className="middle">L’essenza del brand “Assaje” è riassunta nel suo claim “noi mangiamo assaje” che significa
                     ripercorrere la cultura gastronomica di Napoli e l’opulenza delle sue portate. Siamo l’anello
                     di congiunzione tra la pizza napoletana tradizionale e quella gourmet in un format che unisce

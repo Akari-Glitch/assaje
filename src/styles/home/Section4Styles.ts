@@ -44,46 +44,68 @@ export const Section4Styles = styled.section`
     text-align: center;
   }
 
-  @media (min-width: 765px) {
-    margin-bottom: 10%;
+  .title-1 {
+    text-align: Center;
+    font-size: 5vw;
+    margin-top: 5%;
+  }
 
-    .div-1 {
-      justify-content: space-around;
-      align-items: Center;
-    }
-    .div-1 svg {
-      color: #bd3039;
-      height: 40px;
-      width: 40px;
-    }
-    .arrow-next,
-    .arrow-back {
-      display: block;
+  .title-1 a {
+    color: black;
+  }
+
+  @media (min-width: 550px) {
+    .title-1 {
+      font-size: 3.5vw;
     }
 
-    .div-1 h1 {
-      font-size: 5.5vw;
-      -webkit-text-stroke-width: 0.1px;
-    }
+    @media (min-width: 765px) {
+      margin-bottom: 10%;
 
-    @media (min-width: 1020px) {
-      .div-1 h1 {
-        font-size: 4.5vw;
+      .title-1 {
+        font-size: 2.5vw;
       }
 
       .div-1 {
         justify-content: space-around;
         align-items: Center;
-        margin-bottom: 5%;
+      }
+      .div-1 svg {
+        color: #bd3039;
+        height: 40px;
+        width: 40px;
+      }
+      .arrow-next,
+      .arrow-back {
+        display: block;
       }
 
-      .div-1 svg {
-        width: 50px;
-        height: 50px;
+      .div-1 h1 {
+        font-size: 5.5vw;
+        -webkit-text-stroke-width: 0.1px;
       }
-      .div-2 img {
-        width: 25vw;
-        margin-right: 5%;
+
+      @media (min-width: 1020px) {
+        .div-1 h1 {
+          font-size: 4.5vw;
+        }
+        .title-1 {
+          font-size: 2vw;
+        }
+        .div-1 {
+          justify-content: space-around;
+          align-items: Center;
+          margin-bottom: 5%;
+        }
+
+        .div-1 svg {
+          width: 50px;
+          height: 50px;
+        }
+        .div-2 img {
+          width: 25vw;
+          margin-right: 5%;
+        }
       }
     }
   }

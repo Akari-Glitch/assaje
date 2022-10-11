@@ -1,14 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Section5Styles } from '../../styles/home/Section5Styles'
+import { LaNostraStyles } from '../../styles/shared/LaNostraStyles'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-function Section5() {
+function LaNostra() {
     return (
-        <Section5Styles>
-            <h1 className="title-1">
-                <Link to="/"> SCOPRI LE NOSTRE PIZZE VEGANE</Link>
-            </h1>
-
+        <LaNostraStyles>
+       
             <div className="div-2">
                 <form action="">
                     <h4 className="title-2">LA NOSTRA NEWSLETTER</h4>
@@ -30,8 +27,8 @@ function Section5() {
                     </div>
                 </form>
             </div>
-        </Section5Styles>
+        </LaNostraStyles>
     )
 }
 
-export default Section5
+export default LaNostra

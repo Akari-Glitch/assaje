@@ -3,6 +3,7 @@ import { Section4Styles } from '../../styles/home/Section4Styles'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ScrollContainer from 'react-indiana-drag-scroll'
+import { Link } from 'react-router-dom';
 function Section4() {
     let div: HTMLElement;
 
@@ -39,6 +40,10 @@ function Section4() {
                 <img src="/images/home/section4/img5.jpg" />
                 <img src="/images/home/section4/img6.jpg" />
             </ScrollContainer>
+
+            <h1 className="title-1">
+                <Link to="/"> SCOPRI LE NOSTRE PIZZE VEGANE</Link>
+            </h1>
 
         </Section4Styles>
     )

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Section2Styles } from '../../styles/home/Section2Styles'
-function Section2() {
-    return (
-        <Section2Styles>
-            <div className="div-1">
-                <img src="/images/home/section2/index.jpg" />
-            </div>
 
+function Section4() {
+    return (
+        <Section2Styles className="about">
+            <div className="div-1">
+                <img src="/images/about/img3.jpg" />
+            </div>
             <div className="div-2">
                 <div>
                     <p className='p-1 big'> <strong>Le nostre porzioni sono <br />
@@ -24,4 +24,4 @@ function Section2() {
     )
 }
 
-export default Section2
+export default Section4

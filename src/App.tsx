@@ -13,6 +13,9 @@ import Menu from './menu';
 import Location from './location';
 import Contatti from './contatti';
 import About from "./about"
+import PrivacyPolicy from './privacy-policy';
+import CookiePolicy from './cookie-policy';
+import Copyright from './copyright';
 const App: React.FC = () => {
   return (
 
@@ -26,6 +29,10 @@ const App: React.FC = () => {
           <Route path="/location" element={<Location />} />
           <Route path="/contatti" element={<Contatti />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/privacy-policy" element={<PrivacyPolicy />}></Route>
+          <Route path="/cookie-policy" element={<CookiePolicy />}></Route>
+          <Route path="/copyright" element={<Copyright />}></Route>
+
         </Routes>
         <Footer></Footer>
       </ContainerStyles>

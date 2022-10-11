@@ -31,13 +31,19 @@ export const ContainerStyles = styled.main`
       font-size: 29px;
     }
 
+    .extra-middle {
+      font-size: 32px;
+    }
     .extra-big {
       font-size: 34px;
     }
 
     @media (min-width: 1020px) {
+      .extra-middle {
+        font-size: 2.8vw;
+      }
       .extra-big {
-        font-size: 2.4vw;
+        font-size: 4vw;
       }
       @media (min-width: 1650px) {
         .middle {
