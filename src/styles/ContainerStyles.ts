@@ -14,6 +14,9 @@ export const ContainerStyles = styled.main`
     font-size: 19px;
   }
 
+  .extra-middle {
+    font-size: 26px;
+  }
   .big {
     font-size: 24px;
   }
