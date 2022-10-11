@@ -9,6 +9,12 @@ export const FormStyles = styled.div`
     margin: auto;
   }
 
+  input,
+  textarea {
+    background: white;
+    outline: none;
+    border: 1px solid black;
+  }
   .div-1 {
     margin-top: 40px;
     margin-bottom: 15px;
@@ -109,9 +115,34 @@ export const FormStyles = styled.div`
       width: 30%;
     }
 
+    .div-1,
+    .div-2,
+    .div-3,
+    .div-5 {
+      margin-bottom: 5vh;
+    }
     .check {
       width: auto;
       margin-right: 5%;
+    }
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    .div-1 div input {
+      height: 6vh;
+    }
+
+    textarea {
+      height: 40vh;
+    }
+
+    .div-2 .check input {
+      width: 0.8vw;
+      height: 0.8vw;
+    }
+    .div-2 label {
+      margin-left: 0.3vw;
+      font-size: 0.78vw;
     }
   }
 `;
