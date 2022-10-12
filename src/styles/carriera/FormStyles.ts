@@ -38,6 +38,7 @@ export const FormStyles = styled.div<Props>`
   .input {
     height: 40px;
     outline: none;
+    text-indent: 2%;
   }
   .red {
     color: #bd3039;

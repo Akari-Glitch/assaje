@@ -10,21 +10,21 @@ function Form() {
                         <label htmlFor="" className="red">
                             NOME E COGNOME*
                         </label>
-                        <input type="text" required />
+                        <input className="small" type="text" required />
                     </div>
 
                     <div className="email small">
                         <label htmlFor="" className="red">
                             EMAIL*
                         </label>
-                        <input type="text" required />
+                        <input className="small" type="text" required />
                     </div>
 
                     <div className="tlf small">
                         <label htmlFor="" className="red">
                             TELEFONO*
                         </label>
-                        <input type="text" required />
+                        <input className="small" type="text" required />
                     </div>
                     <div className="city small">
                         <label htmlFor="" className="red">
@@ -150,14 +150,14 @@ function Form() {
                         <label htmlFor="" className="red">
                             SCEGLI LA TUA CITTÀ ESTERA
                         </label>
-                        <input type="text" required />
+                        <input className="small" type="text" required />
                     </div>
                     <div></div>
                 </div>
 
                 <div className="div-3">
                     <h2 className="red small">DESCRIVI LE TUE COMPETENZE*</h2>
-                    <textarea name="" id="" cols={30} rows={10} required></textarea>
+                    <textarea className="small" name="" id="" cols={30} rows={10} required></textarea>
                 </div>
 
                 <div className="div-4">

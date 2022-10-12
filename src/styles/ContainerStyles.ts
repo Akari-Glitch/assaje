@@ -3,63 +3,55 @@ import styled from "styled-components";
 export const ContainerStyles = styled.main`
   overflow-x: hidden;
   .ultra-small {
-    font-size: 12px;
+    font-size: 11px;
   }
-
   .small {
-    font-size: 16px;
+    font-size: 15px;
   }
-
   .middle-small {
-    font-size: 18px;
+    font-size: 17px;
   }
   .middle {
-    font-size: 19px;
+    font-size: 18px;
   }
-
   .extra-middle {
-    font-size: 26px;
+    font-size: 25px;
   }
   .big {
-    font-size: 24px;
+    font-size: 23px;
   }
-
   .extra-big {
-    font-size: 29px;
+    font-size: 28px;
   }
-
   @media (min-width: 765px) {
     .middle {
-      font-size: 24px;
+      font-size: 22px;
     }
-
     .middle-small {
-      font-size: 20px;
+      font-size: 18px;
     }
     .big {
-      font-size: 29px;
+      font-size: 27px;
     }
-
     .extra-middle {
-      font-size: 32px;
+      font-size: 30px;
     }
     .extra-big {
-      font-size: 34px;
+      font-size: 32px;
     }
-
     @media (min-width: 1020px) {
       .extra-middle {
-        font-size: 2.8vw;
+        font-size: 2.6vw;
       }
       .extra-big {
-        font-size: 4vw;
+        font-size: 3.5vw;
       }
       @media (min-width: 1650px) {
         .middle {
-          font-size: 1.6vw;
+          font-size: 1.4vw;
         }
         .middle-small {
-          font-size: 1.3vw;
+          font-size: 1.1vw;
         }
         .ultra-small {
           font-size: 0.8vw;
@@ -68,7 +60,7 @@ export const ContainerStyles = styled.main`
           font-size: 1.1vw;
         }
         .big {
-          font-size: 2vw;
+          font-size: 1.8vw;
         }
       }
     }

@@ -13,6 +13,7 @@ export const Section3Styles = styled.section`
   .link {
     display: inline-block;
     width: 100%;
+    font-weight: bolder;
     margin-top: 15px;
     color: #bd3039;
     text-decoration: underline;
