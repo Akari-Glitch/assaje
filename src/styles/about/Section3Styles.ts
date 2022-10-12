@@ -6,11 +6,13 @@ export const Section3Styles = styled.section`
   width: 90%;
   margin-bottom: 80px;
   h1,
-  h2 {
+  .link {
     text-align: center;
   }
 
-  h2 {
+  .link {
+    display: inline-block;
+    width: 100%;
     margin-top: 15px;
     color: #bd3039;
     text-decoration: underline;

@@ -20,6 +20,12 @@ function Section4() {
 
     }
 
+    let scroll = document.scrollingElement as HTMLElement
+
+    const handleScroll = () => {
+        scroll.scrollTop = 0
+    };
+
     return (
         <Section4Styles>
             <div className="div-1">
@@ -42,7 +48,7 @@ function Section4() {
             </ScrollContainer>
 
             <h1 className="title-1">
-                <Link to="/"> SCOPRI LE NOSTRE PIZZE VEGANE</Link>
+                <Link to="/menu" onClick={handleScroll}> SCOPRI LE NOSTRE PIZZE VEGANE</Link>
             </h1>
 
         </Section4Styles>

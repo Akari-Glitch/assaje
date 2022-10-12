@@ -10,27 +10,27 @@ function Form() {
                         <label htmlFor="" className="red">
                             NOME E COGNOME*
                         </label>
-                        <input type="text" />
+                        <input type="text" required />
                     </div>
 
                     <div className="email small">
                         <label htmlFor="" className="red">
                             EMAIL*
                         </label>
-                        <input type="text" />
+                        <input type="text" required />
                     </div>
 
                     <div className="tlf small">
                         <label htmlFor="" className="red">
                             TELEFONO*
                         </label>
-                        <input type="text" />
+                        <input type="text" required />
                     </div>
                     <div className="city small">
                         <label htmlFor="" className="red">
                             SCEGLI LA TUA CITTÀ ITALIANA
                         </label>
-                        <select className="input">
+                        <select className="input" required>
                             <option className="small" value="">---</option>
                             <option className="small" value="Agrigento">Agrigento</option>
                             <option className="small" value="Alessandria">Alessandria</option>
@@ -150,18 +150,18 @@ function Form() {
                         <label htmlFor="" className="red">
                             SCEGLI LA TUA CITTÀ ESTERA
                         </label>
-                        <input type="text" />
+                        <input type="text" required />
                     </div>
                     <div></div>
                 </div>
 
                 <div className="div-3">
                     <h2 className="red small">DESCRIVI LE TUE COMPETENZE*</h2>
-                    <textarea name="" id="" cols={30} rows={10}></textarea>
+                    <textarea name="" id="" cols={30} rows={10} required></textarea>
                 </div>
 
                 <div className="div-4">
-                    <input type="checkbox" name="conditions" />
+                    <input type="checkbox" name="conditions" required />
                     <p className="ultra-small">
                         Ho letto l'informativa privacy e acconsento alla memorizzazione dei
                         miei dati nel vostro archivio
