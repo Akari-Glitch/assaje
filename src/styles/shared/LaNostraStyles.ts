@@ -90,6 +90,10 @@ export const LaNostraStyles = styled.div`
         font-size: 55px;
       }
 
+      .checkbox {
+        width: 0.8vw;
+        height: 0.8vw;
+      }
       .input-1 {
         font-size: 30px;
       }

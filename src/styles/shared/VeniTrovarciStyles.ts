@@ -20,6 +20,9 @@ export const VeniTrovarciStyles = styled.div`
     -webkit-text-stroke-color: black;
   }
 
+  .di {
+    font-size: 5.9vw;
+  }
   @media (min-width: 765px) {
     h1 {
       font-size: 7.8vw;
@@ -31,6 +34,9 @@ export const VeniTrovarciStyles = styled.div`
       -webkit-text-stroke-width: 0.1px;
     }
 
+    .di {
+      font-size: 4.7vw;
+    }
     margin-bottom: 5%;
     @media (min-width: 1020px) {
       h1 {
@@ -40,6 +46,10 @@ export const VeniTrovarciStyles = styled.div`
 
       h2 {
         font-size: 3.4vw;
+      }
+
+      .di {
+        font-size: 3.6vw;
       }
     }
   }

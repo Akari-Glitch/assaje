@@ -4,7 +4,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
 import Home from './home';
 import Navbar from './components/Navbar';
 import { ContainerStyles } from './styles/ContainerStyles';
@@ -17,6 +16,8 @@ import PrivacyPolicy from './privacy-policy';
 import CookiePolicy from './cookie-policy';
 import Copyright from './copyright';
 import Carriera from './carriera';
+import Franchising from './franchising';
+
 const App: React.FC = () => {
   return (
 
@@ -34,6 +35,8 @@ const App: React.FC = () => {
           <Route path="/privacy-policy" element={<PrivacyPolicy />}></Route>
           <Route path="/cookie-policy" element={<CookiePolicy />}></Route>
           <Route path="/copyright" element={<Copyright />}></Route>
+          <Route path="/franchising" element={<Franchising />}></Route>
+
 
         </Routes>
         <Footer></Footer>

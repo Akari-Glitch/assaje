@@ -16,7 +16,7 @@ function LaNostra() {
                     <div>
 
                         <label className="ultra-small">
-                            <input type="checkbox" className="checkbox" id="cbox1" value="first_checkbox" />
+                            <input  type="checkbox" className="checkbox" id="cbox1" value="first_checkbox" />
                             <div>
                                 Do il mio consenso all'
                                 <a href="">

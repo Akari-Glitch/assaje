@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-export const FormStyles = styled.div`
-  background-color: #e6e7e8;
+interface Props {
+  white: boolean;
+}
+export const FormStyles = styled.div<Props>`
+  background-color: ${(props) => (props.white ? "white" : "#e6e7e8")};
   padding-top: 10%;
   padding-bottom: 10%;
   form {
@@ -10,7 +13,8 @@ export const FormStyles = styled.div`
   }
 
   input,
-  textarea {
+  textarea,
+  .input {
     background: white;
     outline: none;
     border: 1px solid black;
@@ -30,7 +34,8 @@ export const FormStyles = styled.div`
     margin-bottom: 5px;
   }
 
-  .div-1 div input {
+  .div-1 div input,
+  .input {
     height: 40px;
     outline: none;
   }
@@ -115,6 +120,10 @@ export const FormStyles = styled.div`
       width: 30%;
     }
 
+    .div-4 p {
+      text-indent: 3%;
+    }
+
     .div-1,
     .div-2,
     .div-3,
@@ -128,7 +137,8 @@ export const FormStyles = styled.div`
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    .div-1 div input {
+    .div-1 div input,
+    .input {
       height: 6vh;
     }
 
@@ -136,7 +146,8 @@ export const FormStyles = styled.div`
       height: 40vh;
     }
 
-    .div-2 .check input {
+    .div-2 .check input,
+    .div-4 input {
       width: 0.8vw;
       height: 0.8vw;
     }

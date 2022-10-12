@@ -84,7 +84,14 @@ export const FooterStyles = styled.footer`
         }
 
         .politics {
-          width: 20vw;
+          max-width: 100%;
+          width: 15vw;
+        }
+
+        @media (min-width: 2000px) {
+          svg {
+            width: 3vw;
+          }
         }
       }
     }

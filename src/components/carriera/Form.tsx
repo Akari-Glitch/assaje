@@ -2,7 +2,7 @@ import React from 'react'
 import { FormStyles } from '../../styles/carriera/FormStyles'
 function Form() {
     return (
-        <FormStyles>
+        <FormStyles white={false}>
             <form action="">
                 <h1>COMPILA IL FORM</h1>
                 <div className="div-1">

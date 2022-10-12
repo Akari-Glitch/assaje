@@ -117,6 +117,7 @@ export const NavbarStyles = styled.nav<Props>`
       }
       @media (min-width: 1720px) {
         margin-top: 190px;
+        height: 10vh;
 
         .nav-content {
           width: 60%;

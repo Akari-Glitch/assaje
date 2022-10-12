@@ -1,7 +1,12 @@
 import React from 'react'
 import { Section1Styles } from '../../styles/home/Section1Styles'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 function Section1() {
+    let scroll = document.scrollingElement as HTMLElement
+
+    const handleScroll = () => {
+        scroll.scrollTop = 0
+    };
     return (
         <Section1Styles>
 
@@ -17,7 +22,7 @@ function Section1() {
 
                 <p className="p-2 middle">
                     <strong>
-                        <Link to={""}>SCOPRI IL MENÚ</Link>
+                        <NavLink to={"/menu"} onClick={handleScroll}>SCOPRI IL MENÚ</NavLink>
                     </strong>
                 </p>
             </div>

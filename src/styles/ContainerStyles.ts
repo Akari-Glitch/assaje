@@ -10,6 +10,9 @@ export const ContainerStyles = styled.main`
     font-size: 16px;
   }
 
+  .middle-small {
+    font-size: 18px;
+  }
   .middle {
     font-size: 19px;
   }
@@ -30,6 +33,9 @@ export const ContainerStyles = styled.main`
       font-size: 24px;
     }
 
+    .middle-small {
+      font-size: 20px;
+    }
     .big {
       font-size: 29px;
     }
@@ -51,6 +57,9 @@ export const ContainerStyles = styled.main`
       @media (min-width: 1650px) {
         .middle {
           font-size: 1.6vw;
+        }
+        .middle-small {
+          font-size: 1.3vw;
         }
         .ultra-small {
           font-size: 0.8vw;

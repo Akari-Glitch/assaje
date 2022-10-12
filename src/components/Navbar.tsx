@@ -110,11 +110,11 @@ function Navbar() {
                             }>CONTATTI</NavLink>
                         </li>
                         <li className="ordina-li" onClick={closeNav}>
-                            <NavLink to={`ordina`}>
+                            <a href="https://assaje.ordine.deliveroo.it/it/" target='_blank'>
                                 <div className="ordina-btn">
                                     ORDINA ORA
                                 </div>
-                            </NavLink>
+                            </a>
                         </li>
 
                     </ul>
