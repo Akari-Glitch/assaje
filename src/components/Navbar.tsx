@@ -82,7 +82,7 @@ function Navbar() {
                         <li onClick={closeNav}>
                             <NavLink to={`menu`} className={({ isActive }) =>
                                 isActive ? "active-link" : undefined
-                            }>MENU</NavLink>
+                            }>MENÙ</NavLink>
                         </li>
                         <li onClick={closeNav}>
                             <NavLink to={`location`} className={({ isActive }) =>
